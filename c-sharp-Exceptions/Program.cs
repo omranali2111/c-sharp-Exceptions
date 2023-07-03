@@ -74,17 +74,27 @@ internal class Program
         {
             Console.WriteLine("enter file path");
             string path = Console.ReadLine();
-            FileStream fs = File.Open(path, FileMode.Open);
+           // FileStream fs = File.Open(path, FileMode.Open);
+
+            using (StreamReader sr = File.OpenText(path))
+            {
+                string s = "";
+                while ((s = sr.ReadLine()) != null)
+                {
+                    // printing the file contents
+                    Console.WriteLine(s);
+                }
+            }
         }
-        catch(ArgumentException e)
+        catch (ArgumentException e)
         {
             Console.WriteLine(e.Message);
         }
-        catch(DirectoryNotFoundException e)
+        catch (DirectoryNotFoundException e)
         {
             Console.WriteLine(e.Message);
         }
-        catch(IOException e)
+        catch (IOException e)
         {
             Console.WriteLine(e.Message);
         }
