@@ -1,0 +1,15 @@
+C:\Users\ict\Desktop\code-TRA\c-sharp-Exceptions\c-sharp-Exceptions\bin\Debug\net6.0\c-sharp-Exceptions.exe
+C:\Users\ict\Desktop\code-TRA\c-sharp-Exceptions\c-sharp-Exceptions\bin\Debug\net6.0\c-sharp-Exceptions.deps.json
+C:\Users\ict\Desktop\code-TRA\c-sharp-Exceptions\c-sharp-Exceptions\bin\Debug\net6.0\c-sharp-Exceptions.runtimeconfig.json
+C:\Users\ict\Desktop\code-TRA\c-sharp-Exceptions\c-sharp-Exceptions\bin\Debug\net6.0\c-sharp-Exceptions.dll
+C:\Users\ict\Desktop\code-TRA\c-sharp-Exceptions\c-sharp-Exceptions\bin\Debug\net6.0\c-sharp-Exceptions.pdb
+C:\Users\ict\Desktop\code-TRA\c-sharp-Exceptions\c-sharp-Exceptions\obj\Debug\net6.0\c-sharp-Exceptions.csproj.AssemblyReference.cache
+C:\Users\ict\Desktop\code-TRA\c-sharp-Exceptions\c-sharp-Exceptions\obj\Debug\net6.0\c-sharp-Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ict\Desktop\code-TRA\c-sharp-Exceptions\c-sharp-Exceptions\obj\Debug\net6.0\c-sharp-Exceptions.AssemblyInfoInputs.cache
+C:\Users\ict\Desktop\code-TRA\c-sharp-Exceptions\c-sharp-Exceptions\obj\Debug\net6.0\c-sharp-Exceptions.AssemblyInfo.cs
+C:\Users\ict\Desktop\code-TRA\c-sharp-Exceptions\c-sharp-Exceptions\obj\Debug\net6.0\c-sharp-Exceptions.csproj.CoreCompileInputs.cache
+C:\Users\ict\Desktop\code-TRA\c-sharp-Exceptions\c-sharp-Exceptions\obj\Debug\net6.0\c-sharp-Exceptions.dll
+C:\Users\ict\Desktop\code-TRA\c-sharp-Exceptions\c-sharp-Exceptions\obj\Debug\net6.0\refint\c-sharp-Exceptions.dll
+C:\Users\ict\Desktop\code-TRA\c-sharp-Exceptions\c-sharp-Exceptions\obj\Debug\net6.0\c-sharp-Exceptions.pdb
+C:\Users\ict\Desktop\code-TRA\c-sharp-Exceptions\c-sharp-Exceptions\obj\Debug\net6.0\c-sharp-Exceptions.genruntimeconfig.cache
+C:\Users\ict\Desktop\code-TRA\c-sharp-Exceptions\c-sharp-Exceptions\obj\Debug\net6.0\ref\c-sharp-Exceptions.dll
