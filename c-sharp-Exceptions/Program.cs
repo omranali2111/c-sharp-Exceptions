@@ -1,4 +1,6 @@
-﻿internal class Program
+﻿using System.IO;
+
+internal class Program
 {
     private static void Main(string[] args)
     {
@@ -7,10 +9,9 @@
        Console.WriteLine(divide(4, 0));
 
         loop();
+        //Age();
 
-
-       
-        Age();
+        file();
     }
 
     private static float divide(int a, int b)
@@ -50,7 +51,7 @@
             int b = int.Parse(Console.ReadLine());
             if(b<0)
             {
-                throw new ArgumentException("number should be positive");
+                throw new ArgumentException(" error number should be positive");
             }
             else
             Console.WriteLine(b);
@@ -63,9 +64,39 @@
         }
         catch (ArgumentException e)
         {
-            Console.WriteLine("error "+e.Message);
+            Console.WriteLine(e.Message);
         }
       
     }
+    private static void file()
+    {
+        try
+        {
+            Console.WriteLine("enter file path");
+            string path = Console.ReadLine();
+            FileStream fs = File.Open(path, FileMode.Open);
+        }
+        catch(ArgumentException e)
+        {
+            Console.WriteLine(e.Message);
+        }
+        catch(DirectoryNotFoundException e)
+        {
+            Console.WriteLine(e.Message);
+        }
+        catch(IOException e)
+        {
+            Console.WriteLine(e.Message);
+        }
+        catch (UnauthorizedAccessException e)
+        {
+            Console.WriteLine(e.Message);
+        }
+
+       
+
+    }
+
+
 
 }
