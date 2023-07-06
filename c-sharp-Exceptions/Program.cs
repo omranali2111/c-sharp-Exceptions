@@ -11,7 +11,8 @@ internal class Program
         loop();
         //Age();
 
-        file();
+        //file();
+        numeric();
     }
 
     private static float divide(int a, int b)
@@ -76,7 +77,7 @@ internal class Program
             string path = Console.ReadLine();
            // FileStream fs = File.Open(path, FileMode.Open);
 
-            using (StreamReader sr = File.OpenText(path))
+            using (StreamReader sr = File.OpenText(path))//using is to clear the buffer and close the file
             {
                 string s = "";
                 while ((s = sr.ReadLine()) != null)
@@ -86,24 +87,32 @@ internal class Program
                 }
             }
         }
-        catch (ArgumentException e)
+        catch (Exception e)
         {
             Console.WriteLine(e.Message);
         }
-        catch (DirectoryNotFoundException e)
+       
+
+    }
+
+
+    private static void numeric()
+    {
+        try
         {
-            Console.WriteLine(e.Message);
-        }
-        catch (IOException e)
-        {
-            Console.WriteLine(e.Message);
-        }
-        catch (UnauthorizedAccessException e)
-        {
-            Console.WriteLine(e.Message);
+            Console.WriteLine("enter number");
+            int a = int.Parse(Console.ReadLine());
+
+
         }
 
-       
+
+        catch (FormatException e)
+        {
+            Console.WriteLine(e.Message);
+
+        }
+
 
     }
 
